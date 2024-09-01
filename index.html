@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container section -->
+    <div class="container"> 
+        <nav>
+            <div class="logo"><img src="logo.png" alt="logo1" class="logo1">
+                <span>POLITEKNIK STATISTIKA STIS</span>
+            </div>
+            <ul>
+                <li><a href="#"></a>Feature</li>
+                <li><a href="#"></a>How it works</li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+            <div>
+                <a href="#" class="btn-lgn">Login</a>
+                <a href="#" class="donlod-lgn">Download Image</a>
+            </div>
+        </nav>
+        <div class="isi">
+            <h1 class="animasi">CEPET SEMBUH <BR> SAYANGG HUAAA</h1>
+                <p class="animasi">Aku sayang banget sama kamu, maaf belum ada buat kamu sekarang aku mau ketemu kamu tapi belum bisaaa, cepet sembuh kakinya plissssaku sayang sama kamu yang</p>
+                <a href="https://drive.google.com/file/d/1FylMzln82va-2lpr57j1WCYtO00uK9TX/view" class="tombol animasi">Join Now</a>
+        </div>
+        <img src="ellin1.png" alt="gambar ellin" class="sayang animasi">
+    </div>
+    
+    <!-- audio section -->
+    <audio id="background-music" loop>
+        <source src="first love.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung pemutar audio.
+    </audio>
+
+    <!-- script sederhana -->
+    <script>
+        // Mulai memutar musik setelah halaman dimuat
+        window.onload = function() {
+            var music = document.getElementById("background-music");
+            music.play().catch(error => {
+                console.error("Autoplay tidak diizinkan oleh browser: ", error);
+            });
+        };
+    </script>
+</body>
+</html>
